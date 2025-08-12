@@ -102,57 +102,6 @@ h1 {
   </style>
 </head>
 <body>
-  
-.semestre h2 {
-  margin: 0 0 0.4rem;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--rosa-oscuro);
-  text-align: center;
-}
-
-.ramo {
-  background: var(--gris-claro);
-  color: #4b5563;
-  border: none;
-  padding: 0.4rem 0.6rem;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-.ramo.habilitado {
-  background: linear-gradient(90deg, var(--rosa-medio), var(--rosa-oscuro));
-  color: #fff;
-}
-
-.ramo:hover { filter: brightness(1.05); }
-
-.ramo.aprobado {
-  background: #a7f3d0;
-  color: #055f35;
-  text-decoration: line-through;
-}
-
-#reset {
-  margin-top: 2rem;
-  padding: 0.6rem 1.4rem;
-  font-size: 1rem;
-  background: var(--rosa-oscuro);
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.12);
-  transition: opacity 0.25s;
-}
-
-#reset:hover { opacity: 0.85; }
-
-  </style>
-</head>
-<body>
 <h1>Ingeniería Electrónica – Malla Interactiva</h1>
   <div id="semestres"></div>
   <button id="reset">Reiniciar selección</button>  <script>
@@ -163,7 +112,7 @@ h1 {
       { id: 4, nombre: "Ingeniería y Sociedad", nivel: 1, correlativas: [] },
       { id: 5, nombre: "Análisis Matemático II", nivel: 1, correlativas: [2, 3] },
       { id: 6, nombre: "Física I", nivel: 1, correlativas: [2, 3] },
-      { id: 7, nombre: "Diseño Asistido por Computadora", nivel: 1, correlativas: [] },
+{ id: 7, nombre: "Diseño Asistido por Computadora", nivel: 1, correlativas: [] },
       { id: 8, nombre: "Informática II", nivel: 2, correlativas: [1, 2, 3] },
       { id: 9, nombre: "Análisis de Señales y Sistemas", nivel: 2, correlativas: [5] },
       { id: 10, nombre: "Química General", nivel: 2, correlativas: [] },
@@ -177,7 +126,7 @@ h1 {
       { id: 18, nombre: "Legislación", nivel: 3, correlativas: [8] },
       { id: 19, nombre: "Electrónica Aplicada I", nivel: 3, correlativas: [10, 11] },
       { id: 20, nombre: "Medios de Enlace", nivel: 3, correlativas: [5, 11] },
-      { id: 21, nombre: "Inglés II", nivel: 3, correlativas: [14] },
+{ id: 21, nombre: "Inglés II", nivel: 3, correlativas: [14] },
       { id: 22, nombre: "Técnicas Digitales II", nivel: 4, correlativas: [8, 16, 19] },
       { id: 23, nombre: "Medidas Electrónicas I", nivel: 4, correlativas: [9, 15, 16, 19] },
       { id: 24, nombre: "Teoría de los Circuitos II", nivel: 4, correlativas: [9, 15] },
